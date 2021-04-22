@@ -37,6 +37,10 @@ export default {
         { 
             src: "~/plugins/typed.js", 
             ssr: false 
+        },
+        {   
+            src: '~/plugins/vue-fb-customer-chat.js', 
+            ssr: false 
         }
     ],
 
