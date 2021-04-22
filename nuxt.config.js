@@ -64,6 +64,8 @@ export default {
     build: {
         extend (config, ctx) {
         },
+        babel: { compact: true },
     },
     
+    publicPath: process.env.NODE_ENV === 'production' ? '/first/' : '/'
 }
