@@ -2,7 +2,7 @@
     <div class="blog">
         <div class="thumbnail">
             <div class="image">
-                <img :src="url" :alt="title" />
+                <img :src="image" :alt="title" />
             </div>
         </div>
         <div class="info">
@@ -19,7 +19,7 @@ export default {
             title: "Equipment-Detail-Card"
         };
     },
-    props: ["title", "url", "price"]
+    props: ["title", "image", "price"]
 };
 </script>
 
@@ -27,5 +27,10 @@ export default {
 .price {
     font-weight: 900;
     color: rgb(228, 54, 54);
+}
+
+img {
+    width: 370px;
+    height: 270px;
 }
 </style>

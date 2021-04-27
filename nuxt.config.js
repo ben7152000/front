@@ -56,6 +56,7 @@ export default {
         // https://go.nuxtjs.dev/bootstrap
         'bootstrap-vue/nuxt',
         '@nuxtjs/style-resources',
+        '@nuxtjs/axios'
     ],
 
     styleResources: {
@@ -66,10 +67,6 @@ export default {
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
     build: {
-        extend (config, ctx) {
-        },
-        babel: { compact: true },
+        extend (config, ctx) {},
     },
-    
-    publicPath: process.env.NODE_ENV === 'production' ? '/first/' : '/'
 }

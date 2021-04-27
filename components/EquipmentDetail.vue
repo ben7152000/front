@@ -17,7 +17,7 @@
                 >
                     <EquipmentDetailCard
                         :title="equipment.title"
-                        :url="equipment.url"
+                        :image="equipment.image"
                         :price="equipment.price"
                     />
                 </div>
@@ -39,7 +39,7 @@ export default {
     props: ["addClassName", "equipments"],
     components: {
         SectionTitle,
-        EquipmentDetailCard
+        EquipmentDetailCard,
     }
 };
 </script>
