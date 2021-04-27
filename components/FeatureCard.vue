@@ -9,7 +9,7 @@
                 <div class="desc">
                     <p>{{ text }}</p>
                 </div>
-                <n-link :to="url" class="link">詳細介紹</n-link>
+                <a :href="url" class="link">詳細介紹</a>
             </div>
         </div>
     </div>

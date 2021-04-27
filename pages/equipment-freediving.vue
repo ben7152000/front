@@ -36,11 +36,10 @@ export default {
     OffCanvasMobileMenu,
     Breadcrumb,
     EquipmentDetail,
-    TheFooter
+    TheFooter,
   },
   data() {
     return {
-      equipments: [],
       items: [
         {
           text: "首頁",

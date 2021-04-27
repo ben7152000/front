@@ -12,7 +12,7 @@
   width: 100vw;
   height: 100vh;
   position: fixed;
-  z-index: 50;    
+  z-index: 50;
 }
 
 .spinner-wrapper {
@@ -25,7 +25,7 @@
   width: 80px;
   height: 80px;
   margin: 100px auto;
-  background-color: #1292EE;
+  background-color: #1292ee;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1s infinite ease-in-out;
   animation: sk-scaleout 1s infinite ease-in-out;

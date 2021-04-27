@@ -5,7 +5,7 @@
     <Breadcrumb :items="items"
                 title="We are an agency located in New York"
                 backgroundUrl="https://picsum.photos/1920/540?random=8" />
-    <EquipmentDetail :equipments="equipments" />
+    <EquipmentDetail :equipments="equipments"/>
     <TheFooter />
   </div>
 </template>
@@ -36,11 +36,10 @@ export default {
     OffCanvasMobileMenu,
     Breadcrumb,
     EquipmentDetail,
-    TheFooter
+    TheFooter,
   },
   data() {
     return {
-      equipments: [],
       items: [
         {
           text: "首頁",

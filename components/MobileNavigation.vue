@@ -23,10 +23,10 @@
                     <n-link to="/equipment">裝備租借</n-link>
                     <ul class="sub-menu">
                         <li>
-                            <n-link to="/equipment-snorkeling">浮潛裝備</n-link>
+                            <a href="/equipment-snorkeling">浮潛裝備</a>
                         </li>
                         <li>
-                            <n-link to="/equipment-freediving">自潛裝備</n-link>
+                            <a href="/equipment-freediving">自潛裝備</a>
                         </li>
                     </ul>
                 </li>
