@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "NODE_ENV=development nuxt --port 8080",
         "build": "nuxt build",
-        "start": "NODE_ENV=production nuxt start",
+        "start": "NODE_ENV=production nuxt start --port 8080",
         "generate": "nuxt generate"
     },
     "dependencies": {
