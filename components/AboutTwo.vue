@@ -6,11 +6,10 @@
                     <div class="about-content-area">
                         <div class="section-title-two">
                             <span class="sub-title"
-                                >Web design and digital marketing</span
+                                >每個人都能挑戰自己</span
                             >
                             <h3 class="title">
-                                We think strategy, UX design, <br />
-                                and web development
+                                龍 洞 岬 自 潛 、 浮 潛 中 心
                             </h3>
                         </div>
                         <div class="row mtn-30">
@@ -20,12 +19,11 @@
                             >
                                 <div class="about-funfact">
                                     <div class="number">
-                                        <span class="counter">110</span>+
+                                        <span class="counter">自潛課程</span>
                                     </div>
-                                    <h6 class="text">Happy Clients</h6>
+                                    <h6 class="text">完課學生</h6>
                                     <p>
-                                        We help our clients increase profits by
-                                        increasing their visibility online.
+                                        我們指導眾多自由潛水學生，協助他們提升自我能力，並完成AIDA課程需求，拿取證照
                                     </p>
                                 </div>
                             </div>
@@ -35,13 +33,18 @@
                             >
                                 <div class="about-funfact">
                                     <div class="number">
-                                        <span class="counter">130</span>+
+                                        <span class="counter">其他資訊</span>
                                     </div>
-                                    <h6 class="text">Completed projects</h6>
-                                    <p>
-                                        We help our clients increase profits by
-                                        increasing their visibility online.
-                                    </p>
+                                    <h6 class="text">各項服務</h6>
+                                        <ul>
+                                            <li>浮潛裝備租售</li>
+                                            <li>浮潛體驗</li>
+                                            <li>更衣沖洗</li>
+                                            <li>完美的置物櫃</li>
+                                            <li>投幣式吹風機</li>
+                                            <li>冷飲＆熱食</li>
+                                            <li>東北角名產(石花凍)</li>
+                                        </ul>
                                 </div>
                             </div>
                         </div>
@@ -53,14 +56,16 @@
                     >
                         <div class="about-image js-tilt">
                             <img
-                                src="https://picsum.photos/370/370?random=1"
-                                alt="image"
+                                src="/images/about-1.jpg"
+                                alt="images"
+                                style="width: 370px; height: 370px" 
                             />
                         </div>
                         <div class="about-image js-tilt">
                             <img
-                                src="https://picsum.photos/370/400?random=1"
-                                alt="image"
+                                src="/images/about-2.jpg"
+                                alt="images"
+                                style="width: 370px; height: 400px"
                             />
                         </div>
                         <ShapeWithAnimation

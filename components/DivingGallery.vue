@@ -5,8 +5,9 @@
                 <div class="thumbnail" data-aos="fade-up">
                     <img
                         class="w-100"
-                        src="https://picsum.photos/500/600?random=1"
+                        src="/images/aida-1.jpg"
                         alt="Agency"
+                        style="width: 500px; height: 600px"
                     />
                 </div>
             </div>
@@ -14,8 +15,9 @@
                 <div class="thumbnail" data-aos="fade-up">
                     <img
                         class="w-100"
-                        src="https://picsum.photos/500/600?random=2"
+                        src="/images/aida-2.png"
                         alt="Agency"
+                        style="width: 500px; height: 600px"
                     />
                 </div>
             </div>
@@ -23,8 +25,9 @@
                 <div class="thumbnail" data-aos="fade-up">
                     <img
                         class="w-100"
-                        src="https://picsum.photos/1170/600?random=1"
+                        src="/images/aida-3.jpg"
                         alt="Agency"
+                        style="width: 1170px; height: 600px"
                     />
                 </div>
             </div>

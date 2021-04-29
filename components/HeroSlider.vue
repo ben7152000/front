@@ -17,15 +17,15 @@
                                     class="intro-content mt-xl-8 mt-lg-8 mt-md-8 mt-sm-8 mt-xs-8"
                                 >
                                     <h2 class="title">{{ banner.heading }}</h2>
-                                    <n-link
-                                        to="/course"
+                                    <a
+                                        href="/course"
                                         class="btn btn-primary btn-hover-secondary"
-                                        >立即報名</n-link
+                                        >立即報名</a
                                     >
-                                    <n-link
-                                        to="/equipment"
+                                    <a
+                                        href="/equipment"
                                         class="btn btn-outline-white btn-hover-primary"
-                                        >立即租借</n-link
+                                        >立即租借</a
                                     >
                                 </div>
                             </div>
@@ -67,12 +67,12 @@ export default {
                 {
                     id: 1,
                     heading: "專 業 自 由 潛 水 課 程 & 裝 備 出 租",
-                    bgImgSrc: "https://picsum.photos/1920/1080?random=1"
+                    bgImgSrc: "/images/banner-1.jpeg"
                 },
                 {
                     id: 2,
                     heading: "專 業 自 由 潛 水 課 程 & 裝 備 出 租",
-                    bgImgSrc: "https://picsum.photos/1920/1080?random=2"
+                    bgImgSrc: "/images/banner-2.jpg"
                 }
             ]
         };

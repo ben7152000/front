@@ -2,8 +2,8 @@
     <div class="section-padding-t90-b100">
         <div class="container shape-animate">
             <SectionTitle
-                title="We are a full-service creative agency"
-                sub-title="Our team of designers, developers and creatives are perfectionists who love what they do and love where they work"
+                title="與我們聯繫"
+                sub-title="想要報名課程、租借裝備、購買裝備、詢問下水相關問題，都能與我們聯絡"
                 add-class-name="mb-30"
             />
             <CallToActionCard />

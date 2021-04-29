@@ -6,7 +6,6 @@
         <AboutOne />
         <FeatureCourse :style="{ backgroundColor: '#f8faff' }" />
         <CallToAction />
-        <div id="fb-root" />
         <TheFooter />
     </div>
 </template>

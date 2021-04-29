@@ -6,10 +6,13 @@
         <div class="col-md-4 col-sm-6 col-12 mt-30">
           <div class="footer-widget">
             <div class="footer-logo">
-              <n-link to="/">
-                <img src="/images/logo/footer-logo.png"
-                     alt="Logo" />
-              </n-link>
+              <a href="/">
+                <img 
+                     src="/images/logo.png"
+                     alt="Logo" 
+                     style="width:120px; height: 70px"
+                />
+              </a>
             </div>
             <SocialMedia />
           </div>

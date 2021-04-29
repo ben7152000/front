@@ -5,7 +5,7 @@
             <div class="footer-widget-content">
                 <ul>
                     <li v-for="(item, index) in items" :key="index">
-                        <n-link :to="item.to">{{ item.title }}</n-link>
+                        <a :href="item.to">{{ item.title }}</a>
                     </li>
                 </ul>
             </div>

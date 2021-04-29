@@ -2,19 +2,19 @@
     <nav class="site-main-menu">
         <ul>
             <li>
-                <n-link to="/about">關於我們</n-link>
+                <a href="/about">關於我們</a>
             </li>
             <li class="has-children">
-                <n-link to="/course">課程介紹</n-link>
+                <a href="/course">課程介紹</a>
                 <ul class="sub-menu">
                     <li>
-                        <n-link to="/course-aida-1">AIDA 1 課程</n-link>
+                        <a href="/course-aida-1">AIDA 1 課程</a>
                     </li>
                     <li>
-                        <n-link to="/course-aida-2">AIDA 2 課程</n-link>
+                        <a href="/course-aida-2">AIDA 2 課程</a>
                     </li>
                     <li>
-                        <n-link to="/course-aida-3">AIDA 3 課程</n-link>
+                        <a href="/course-aida-3">AIDA 3 課程</a>
                     </li>
                 </ul>
             </li>
@@ -30,7 +30,7 @@
                 </ul>
             </li>
             <li>
-                <n-link to="/contact-us">聯絡我們</n-link>
+                <a href="/contact-us">聯絡我們</a>
             </li>
         </ul>
     </nav>

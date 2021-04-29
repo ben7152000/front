@@ -3,8 +3,8 @@
     <TheHeader />
     <OffCanvasMobileMenu />
     <Breadcrumb :items="items"
-                title="We are an agency located in New York"
-                backgroundUrl="https://picsum.photos/1920/540?random=8" />
+                title="歡 迎 來 到 裝 備 租 借 中 心"
+                backgroundUrl="/images/banner-2.jpg" />
     <EquipmentDetail :equipments="equipments"/>
     <TheFooter />
   </div>

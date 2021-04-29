@@ -6,8 +6,8 @@ export default {
     
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
-        title: 'Exomac',
-        titleTemplate: '%s || Exomac',
+        title: '龍洞岬',
+        titleTemplate: '龍洞岬',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -56,7 +56,7 @@ export default {
         // https://go.nuxtjs.dev/bootstrap
         'bootstrap-vue/nuxt',
         '@nuxtjs/style-resources',
-        '@nuxtjs/axios'
+        '@nuxtjs/axios',
     ],
 
     styleResources: {
@@ -68,5 +68,11 @@ export default {
     // Build Configuration (https://go.nuxtjs.dev/config-build)
     build: {
         extend (config, ctx) {},
+        babel: { compact: true }
     },
+
+    // google analytics
+    buildModules: [
+    '@nuxtjs/google-analytics'
+  ],
 }

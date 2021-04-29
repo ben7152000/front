@@ -4,9 +4,9 @@
     "author": "uzzal",
     "private": true,
     "scripts": {
-        "dev": "nuxt --port 8080",
+        "dev": "NODE_ENV=development nuxt --port 8080",
         "build": "nuxt build",
-        "start": "nuxt start",
+        "start": "NODE_ENV=production nuxt start",
         "generate": "nuxt generate"
     },
     "dependencies": {
@@ -17,6 +17,7 @@
         "bootstrap-vue": "^2.16.0",
         "core-js": "^3.6.5",
         "mixitup": "^3.3.1",
+        "nodemailer": "^6.5.0",
         "nuxt": "^2.14.5",
         "parallax-js": "^3.1.0",
         "swiper": "^5.3.7",
@@ -27,6 +28,7 @@
         "vuejs-paginate": "^2.1.0"
     },
     "devDependencies": {
+        "@nuxtjs/google-analytics": "^2.4.0",
         "node-sass": "^4.14.1",
         "sass": "^1.26.11",
         "sass-loader": "^10.0.2",

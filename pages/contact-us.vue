@@ -4,12 +4,12 @@
         <OffCanvasMobileMenu />
         <Breadcrumb
             :items="items"
-            title="We are an agency located in New York"
-            backgroundUrl="https://picsum.photos/1920/540?random=2"
+            title="龍 洞 岬 裝 備 中 心"
+            backgroundUrl="/images/banner-2.jpg"
         />
         <CallToAction />
         <GoogleMap />
-        <ContactForm />
+        <!-- <ContactForm /> -->
         <TheFooter />
     </div>
 </template>

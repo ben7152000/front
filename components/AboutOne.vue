@@ -9,14 +9,16 @@
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
                             <img
-                                src="https://picsum.photos/370/370?random=1"
+                                src="/images/about-1.jpg"
                                 alt="images"
+                                style="width: 370px; height: 370px" 
                             />
                         </div>
                         <div class="about-image js-tilt">
                             <img
-                                src="https://picsum.photos/370/400?random=1"
+                                src="/images/about-2.jpg"
                                 alt="images"
+                                style="width: 370px; height: 400px"
                             />
                         </div>
                         <ShapeWithAnimation
@@ -29,21 +31,20 @@
                 <div class="col-xl-5 col-lg-6" data-aos="fade-up">
                     <div class="about-content-area about-one">
                         <div class="section-title-two">
-                            <span class="sub-title">每個人擁有挑戰自己</span>
+                            <span class="sub-title">每個人都能挑戰自己</span>
                             <h3 class="title">
-                                Creative agency focused on vision, product and
-                                people
+                                ✦ 本中心服務項目 ✦
                             </h3>
                         </div>
-                        <p>
-                            We’re boldly individual, always original and
-                            refreshingly easy-going. Our vision, passion and
-                            ideas are matched with focus, expertise and flair.
-                        </p>
-                        <n-link
-                            to="/about"
+                            <ul>
+                                <li>浮潛裝備出租,販售</li>
+                                <li>自由潛水裝備出租,販售</li>
+                                <li>自由潛水AIDA課程</li>
+                            </ul>
+                        <a
+                            href="/about"
                             class="btn btn-primary btn-hover-secondary mt-4"
-                            >關於我們</n-link
+                            >關於我們</a
                         >
                     </div>
                 </div>

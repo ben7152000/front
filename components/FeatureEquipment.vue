@@ -1,8 +1,8 @@
 <template>
   <div class="section-padding-t90-b100">
     <div class="container">
-      <SectionTitle title="We create a unique action plan for brands"
-                    sub-title="Get your company heading in the right direction with our digital marketing strategist"
+      <SectionTitle title="相關裝備租借"
+                    sub-title="擁有齊全、安全、專業的裝備，應有盡有"
                     add-class-name="mb-60" />
       <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mtn-30 justify-content-center">
         <FeatureCard v-for="(feature, index) in features"
@@ -36,16 +36,14 @@ export default {
       features: [
         {
           title: "浮潛裝備",
-          text:
-            "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-          image: "https://picsum.photos/250/250?random=1",
+          text: "救生衣、浮潛面鏡、防寒衣褲、蛙鞋、浮標、救生圈、陽傘",
+          image: "/images/equipment-1.jpg",
           url: "/equipment-snorkeling"
         },
         {
           title: "自潛裝備",
-          text:
-            "First impressions count! Make sure your brand works for you. We offer digital marketing.",
-          image: "https://picsum.photos/250/250?random=2",
+          text: "自潛面鏡、呼吸管、防寒衣褲、蛙鞋、浮球、鉛帶、鉛塊",
+          image: "/images/equipment-2.png",
           url: "/equipment-freediving"
         }
       ]

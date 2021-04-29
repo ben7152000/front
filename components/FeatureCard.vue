@@ -2,7 +2,9 @@
     <div class="col mt-30" data-aos="fade-up">
         <div class="icon-box text-center" :class="addClassName">
             <div class="icon">
-                <img :src="image" :alt="title" />
+                <img :src="image" :alt="title" 
+                     style="width: 250px; height: 250px"                    
+                />
             </div>
             <div class="content">
                 <h3 class="title">{{ title }}</h3>

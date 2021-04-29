@@ -7,9 +7,9 @@
         <div class="inner custom-scrollbar">
             <div class="mobile-header">
                 <div class="logo">
-                    <n-link to="/">
+                    <a href="/">
                         <img src="/images/logo/logo.png" alt="site logo" />
-                    </n-link>
+                    </a>
                 </div>
                 <button
                     class="mobile-close-btn"

@@ -10,7 +10,12 @@
         >
             <div class="contact-info">
                 <div class="icon">
-                    <img class="svgInject" :src="item.src" alt="Icon" />
+                    <img 
+                        class="svgInject" 
+                        :src="item.src" 
+                        alt="Icon" 
+                        style="width:64px; height: 64px"
+                    />
                 </div>
                 <div class="info">
                     <h4 class="title">{{ item.title }}</h4>
@@ -33,7 +38,7 @@ export default {
             socialData: [
                 {
                     title: "地圖資訊",
-                    info: "新北市貢寮區和美里龍洞街1之5號",
+                    info: "新北市貢寮區龍洞街1-5號",
                     src: "/images/svg/linea/linea-basic-map.svg"
                 },
                 {

@@ -2,8 +2,8 @@
     <div class="section-padding fix">
         <div class="container">
             <SectionTitle
-                title="We create a unique action plan for brands"
-                sub-title="Get your company heading in the right direction with our digital marketing strategist"
+                title="相關裝備租借"
+                sub-title="擁有齊全、安全、專業的裝備，應有盡有"
                 add-class-name="mb-60"
             />
             <div

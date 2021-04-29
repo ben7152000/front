@@ -8,18 +8,20 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-xl-2 col-auto order-0">
                         <div class="header-logo">
-                            <n-link to="/">
+                            <a href="/">
                                 <img
                                     class="dark-logo"
-                                    src="/images/logo/logo.png"
+                                    src="/images/logo.png"
                                     alt="Agency Logo"
+                                    style="width: 140px; height: 100px"
                                 />
                                 <img
                                     class="light-logo"
-                                    src="/images/logo/logo.png"
+                                    src="/images/logo.png"
                                     alt="Agency Logo"
+                                    style="width: 140px; height: 100px"
                                 />
-                            </n-link>
+                            </a>
                         </div>
                     </div>
                     <div

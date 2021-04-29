@@ -5,7 +5,7 @@
         <Breadcrumb
             :items="items"
             title="歡 迎 來 到 中 階 自 由 潛 水 課 程"
-            backgroundUrl="https://picsum.photos/1920/540?random=4"
+            backgroundUrl="/images/banner-2.jpg"
         />
         <DivingDetail :course="course" />
         <TheFooter />
