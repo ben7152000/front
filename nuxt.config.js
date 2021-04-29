@@ -71,8 +71,4 @@ export default {
         babel: { compact: true }
     },
 
-    // google analytics
-    buildModules: [
-    '@nuxtjs/google-analytics'
-  ],
 }

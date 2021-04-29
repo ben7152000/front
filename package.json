@@ -28,7 +28,6 @@
         "vuejs-paginate": "^2.1.0"
     },
     "devDependencies": {
-        "@nuxtjs/google-analytics": "^2.4.0",
         "node-sass": "^4.14.1",
         "sass": "^1.26.11",
         "sass-loader": "^10.0.2",
