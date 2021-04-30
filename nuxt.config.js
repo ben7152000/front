@@ -71,4 +71,8 @@ export default {
         babel: { compact: true }
     },
 
+    server: {
+        port: 3001
+    }
+
 }

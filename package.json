@@ -4,9 +4,9 @@
     "author": "uzzal",
     "private": true,
     "scripts": {
-        "dev": "NODE_ENV=development nuxt --port 3001",
+        "dev": "nuxt",
         "build": "nuxt build",
-        "start": "NODE_ENV=production nuxt start --port 3001",
+        "start": "nuxt start",
         "generate": "nuxt generate"
     },
     "dependencies": {
@@ -19,6 +19,7 @@
         "mixitup": "^3.3.1",
         "nodemailer": "^6.5.0",
         "nuxt": "^2.14.5",
+        "nuxt-start": "^2.15.4",
         "parallax-js": "^3.1.0",
         "swiper": "^5.3.7",
         "vue-awesome-swiper": "^4.1.0",
