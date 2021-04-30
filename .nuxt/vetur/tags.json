@@ -1,0 +1,170 @@
+{
+  "AboutOne": {
+    "description": "Auto imported from components/AboutOne.vue"
+  },
+  "LazyAboutOne": {
+    "description": "Auto imported from components/AboutOne.vue"
+  },
+  "AboutTwo": {
+    "description": "Auto imported from components/AboutTwo.vue"
+  },
+  "LazyAboutTwo": {
+    "description": "Auto imported from components/AboutTwo.vue"
+  },
+  "Breadcrumb": {
+    "description": "Auto imported from components/Breadcrumb.vue"
+  },
+  "LazyBreadcrumb": {
+    "description": "Auto imported from components/Breadcrumb.vue"
+  },
+  "CallToAction": {
+    "description": "Auto imported from components/CallToAction.vue"
+  },
+  "LazyCallToAction": {
+    "description": "Auto imported from components/CallToAction.vue"
+  },
+  "CallToActionCard": {
+    "description": "Auto imported from components/CallToActionCard.vue"
+  },
+  "LazyCallToActionCard": {
+    "description": "Auto imported from components/CallToActionCard.vue"
+  },
+  "ContactForm": {
+    "description": "Auto imported from components/ContactForm.vue"
+  },
+  "LazyContactForm": {
+    "description": "Auto imported from components/ContactForm.vue"
+  },
+  "Copyright": {
+    "description": "Auto imported from components/Copyright.vue"
+  },
+  "LazyCopyright": {
+    "description": "Auto imported from components/Copyright.vue"
+  },
+  "DivingApply": {
+    "description": "Auto imported from components/DivingApply.vue"
+  },
+  "LazyDivingApply": {
+    "description": "Auto imported from components/DivingApply.vue"
+  },
+  "DivingDetail": {
+    "description": "Auto imported from components/DivingDetail.vue"
+  },
+  "LazyDivingDetail": {
+    "description": "Auto imported from components/DivingDetail.vue"
+  },
+  "DivingDetailCard": {
+    "description": "Auto imported from components/DivingDetailCard.vue"
+  },
+  "LazyDivingDetailCard": {
+    "description": "Auto imported from components/DivingDetailCard.vue"
+  },
+  "DivingGallery": {
+    "description": "Auto imported from components/DivingGallery.vue"
+  },
+  "LazyDivingGallery": {
+    "description": "Auto imported from components/DivingGallery.vue"
+  },
+  "EquipmentDetail": {
+    "description": "Auto imported from components/EquipmentDetail.vue"
+  },
+  "LazyEquipmentDetail": {
+    "description": "Auto imported from components/EquipmentDetail.vue"
+  },
+  "EquipmentDetailCard": {
+    "description": "Auto imported from components/EquipmentDetailCard.vue"
+  },
+  "LazyEquipmentDetailCard": {
+    "description": "Auto imported from components/EquipmentDetailCard.vue"
+  },
+  "FeatureCard": {
+    "description": "Auto imported from components/FeatureCard.vue"
+  },
+  "LazyFeatureCard": {
+    "description": "Auto imported from components/FeatureCard.vue"
+  },
+  "FeatureCourse": {
+    "description": "Auto imported from components/FeatureCourse.vue"
+  },
+  "LazyFeatureCourse": {
+    "description": "Auto imported from components/FeatureCourse.vue"
+  },
+  "FeatureEquipment": {
+    "description": "Auto imported from components/FeatureEquipment.vue"
+  },
+  "LazyFeatureEquipment": {
+    "description": "Auto imported from components/FeatureEquipment.vue"
+  },
+  "FooterNavigation": {
+    "description": "Auto imported from components/FooterNavigation.vue"
+  },
+  "LazyFooterNavigation": {
+    "description": "Auto imported from components/FooterNavigation.vue"
+  },
+  "GoogleMap": {
+    "description": "Auto imported from components/GoogleMap.vue"
+  },
+  "LazyGoogleMap": {
+    "description": "Auto imported from components/GoogleMap.vue"
+  },
+  "HeroSlider": {
+    "description": "Auto imported from components/HeroSlider.vue"
+  },
+  "LazyHeroSlider": {
+    "description": "Auto imported from components/HeroSlider.vue"
+  },
+  "Loading": {
+    "description": "Auto imported from components/Loading.vue"
+  },
+  "LazyLoading": {
+    "description": "Auto imported from components/Loading.vue"
+  },
+  "MobileNavigation": {
+    "description": "Auto imported from components/MobileNavigation.vue"
+  },
+  "LazyMobileNavigation": {
+    "description": "Auto imported from components/MobileNavigation.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "LazyNavigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "OffCanvasMobileMenu": {
+    "description": "Auto imported from components/OffCanvasMobileMenu.vue"
+  },
+  "LazyOffCanvasMobileMenu": {
+    "description": "Auto imported from components/OffCanvasMobileMenu.vue"
+  },
+  "SectionTitle": {
+    "description": "Auto imported from components/SectionTitle.vue"
+  },
+  "LazySectionTitle": {
+    "description": "Auto imported from components/SectionTitle.vue"
+  },
+  "ShapeWithAnimation": {
+    "description": "Auto imported from components/ShapeWithAnimation.vue"
+  },
+  "LazyShapeWithAnimation": {
+    "description": "Auto imported from components/ShapeWithAnimation.vue"
+  },
+  "SocialMedia": {
+    "description": "Auto imported from components/SocialMedia.vue"
+  },
+  "LazySocialMedia": {
+    "description": "Auto imported from components/SocialMedia.vue"
+  },
+  "TheFooter": {
+    "description": "Auto imported from components/TheFooter.vue"
+  },
+  "LazyTheFooter": {
+    "description": "Auto imported from components/TheFooter.vue"
+  },
+  "TheHeader": {
+    "description": "Auto imported from components/TheHeader.vue"
+  },
+  "LazyTheHeader": {
+    "description": "Auto imported from components/TheHeader.vue"
+  }
+}

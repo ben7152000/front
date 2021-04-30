@@ -1,0 +1,62 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/ben/Desktop/front/pages/about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "contact-us",
+    "path": "/contact-us",
+    "component": "/Users/ben/Desktop/front/pages/contact-us.vue",
+    "chunkName": "pages/contact-us"
+  },
+  {
+    "name": "course",
+    "path": "/course",
+    "component": "/Users/ben/Desktop/front/pages/course.vue",
+    "chunkName": "pages/course"
+  },
+  {
+    "name": "course-aida-1",
+    "path": "/course-aida-1",
+    "component": "/Users/ben/Desktop/front/pages/course-aida-1.vue",
+    "chunkName": "pages/course-aida-1"
+  },
+  {
+    "name": "course-aida-2",
+    "path": "/course-aida-2",
+    "component": "/Users/ben/Desktop/front/pages/course-aida-2.vue",
+    "chunkName": "pages/course-aida-2"
+  },
+  {
+    "name": "course-aida-3",
+    "path": "/course-aida-3",
+    "component": "/Users/ben/Desktop/front/pages/course-aida-3.vue",
+    "chunkName": "pages/course-aida-3"
+  },
+  {
+    "name": "equipment",
+    "path": "/equipment",
+    "component": "/Users/ben/Desktop/front/pages/equipment.vue",
+    "chunkName": "pages/equipment"
+  },
+  {
+    "name": "equipment-freediving",
+    "path": "/equipment-freediving",
+    "component": "/Users/ben/Desktop/front/pages/equipment-freediving.vue",
+    "chunkName": "pages/equipment-freediving"
+  },
+  {
+    "name": "equipment-snorkeling",
+    "path": "/equipment-snorkeling",
+    "component": "/Users/ben/Desktop/front/pages/equipment-snorkeling.vue",
+    "chunkName": "pages/equipment-snorkeling"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ben/Desktop/front/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
