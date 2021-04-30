@@ -16,4 +16,3 @@ node_modules
 .vscode
 .env
 .nuxt
-.dist
