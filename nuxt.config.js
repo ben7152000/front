@@ -30,7 +30,8 @@ export default {
         {   
             src: '~/plugins/vue-fb-customer-chat.js', 
             ssr: false 
-        }
+        },
+        [ "@babel/plugin-proposal-class-properties", { "loose": true } ], 
     ],
     components: true,
     buildModules: [],
@@ -51,6 +52,8 @@ export default {
     },
     server: {
         port: 3001
-    }
-
+    },
+    presets: [
+  ['@babel/preset-env', { loose: true }]
+],
 }
