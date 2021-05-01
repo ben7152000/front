@@ -1,8 +1,7 @@
 {
-    "name": "Exomac",
+    "name": "longdong",
     "version": "1.0.0",
-    "author": "uzzal",
-    "private": true,
+    "author": "Ben",
     "scripts": {
         "dev": "nuxt",
         "build": "nuxt build",
