@@ -20,7 +20,7 @@ import TheFooter from "@/components/TheFooter";
 export default {
   async asyncData(context) {
     try {
-      const { data } = await context.$axios.get("http://localhost:3000/api/snorkeling")
+      const { data } = await context.$axios.get("http://localhost:8081/api/snorkeling")
       return { equipments: data.snorkelings }
     } catch (e) {
       console.log(e)
