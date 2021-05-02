@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "nuxt",
         "build": "nuxt build",
-        "start": "NODE_ENV=production nuxt start --port 8080",
+        "start": "NODE_ENV=production nuxt start",
         "generate": "nuxt generate",
         "pm2-start": "pm2 start nuxt -c '0 0 * * *' --name longdong-front -- start"
     },
