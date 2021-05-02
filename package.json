@@ -7,7 +7,8 @@
         "dev": "nuxt",
         "build": "nuxt build",
         "start": "NODE_ENV=production nuxt start",
-        "generate": "nuxt generate"
+        "generate": "nuxt generate",
+        "pm2-start": "pm2 start npm -c '0 0 * * *' --name longdong-front -- start"
     },
     "dependencies": {
         "@nuxtjs/axios": "^5.13.1",
