@@ -48,7 +48,7 @@ export default {
                 },
                 {
                     title: "信箱Email",
-                    info: "ben7152000@gmail.com",
+                    info: "bang92830@hotmail.com",
                     src: "/images/svg/linea/linea-basic-mail-open-text.svg"
                 }
             ]

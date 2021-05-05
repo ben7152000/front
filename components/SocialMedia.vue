@@ -2,7 +2,7 @@
     <div class="footer-widget-content">
         <div class="content">
             <p>
-                <a href="javascript:;">{{ phone }}</a>
+                <a :href="`tel:+886-${phone}`">0{{ phone }}</a>
             </p>
             <p>
                 <a :href="`mailto:${email}`" target="_blank">{{ email }}</a>
@@ -31,8 +31,8 @@ export default {
     },
     data() {
         return {
-            email: "ben7152000@gmail.com",
-            phone: "0955-857-339",
+            email: "bang928320@hotmail.com",
+            phone: "955-857-339",
             facebook: "https://www.facebook.com/dragon49/?ref=page_internal",
             line: "https://line.me/R/ti/p/%40843eetrw",
             instagram: "https://www.instagram.com/longdongjia1_7/?hl=en"

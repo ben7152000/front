@@ -25,7 +25,7 @@
                                     <a
                                         href="/equipment"
                                         class="btn btn-outline-white btn-hover-primary"
-                                        >立即租借</a
+                                        >了解更多</a
                                     >
                                 </div>
                             </div>

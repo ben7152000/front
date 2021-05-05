@@ -19,7 +19,11 @@ export default {
             title: "Equipment-Detail-Card"
         };
     },
-    props: ["title", "image", "price"]
+    props: ["title", "image", "price"],
+    mounted() {
+        console.log(this.image)
+    }
+    
 };
 </script>
 
@@ -29,8 +33,15 @@ export default {
     color: rgb(228, 54, 54);
 }
 
+image {
+    width: 370px;
+    height: 270px;
+}
+
 img {
     width: 370px;
     height: 270px;
+    /* vertical-align: center; */
+    overflow: hidden;
 }
 </style>

@@ -8,7 +8,7 @@
             <div class="mobile-header">
                 <div class="logo">
                     <a href="/">
-                        <img src="/images/logo/logo.png" alt="site logo" />
+                        <img src="/images/logo.png" alt="site logo" style="width: 100px; height: 50px"/>
                     </a>
                 </div>
                 <button
