@@ -38,6 +38,7 @@ export default {
         'bootstrap-vue/nuxt',
         '@nuxtjs/style-resources',
         '@nuxtjs/axios',
+        '@nuxtjs/google-gtag',
     ],
 
     styleResources: {
@@ -52,4 +53,17 @@ export default {
     server: {
         port: 8080,
     },
+
+   buildModules: [
+    '@nuxtjs/google-analytics'
+   ],
+
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  }
 }
