@@ -52,7 +52,12 @@ export default {
     },
     build: {
         extend (config, ctx) {},
-        babel: { compact: true, }
+        babel: { 
+            compact: true, 
+            plugins: [
+                 ['@babel/plugin-proposal-private-methods', { loose: true }]
+    ]
+        }
     },
     server: {
         port: 8080,
