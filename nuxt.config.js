@@ -41,14 +41,13 @@ export default {
         '@nuxtjs/google-gtag',
         ['@nuxtjs/google-analytics', 
           { 
-            id: process.env.GOOGLE_ANALYTICS_ID || '' ,
+            id: process.env.GOOGLE_ANALYTICS_ID,
             autoTracking: {
                 page: false
             }
           }
         ],
     ],
-
     styleResources: {
         scss: [
             '~/assets/scss/_variables.scss',
@@ -60,10 +59,5 @@ export default {
     },
     server: {
         port: 8080,
-    },
-
-    debug: {
-        enabled: true,
-        sendHitTask: true
-    }       
+    }   
 }
