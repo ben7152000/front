@@ -20,7 +20,15 @@ import TheFooter from "@/components/TheFooter";
 export default {
   head() {
     return {
-      title: "Equipment"
+      title: "Equipment",
+      meta: 
+        [
+          { 
+            hid: '台北龍洞浮潛 跳水 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心', 
+            name: 'description', 
+            content: '台北龍洞浮潛 跳水 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心' 
+          }
+        ]
     };
   },
   components: {

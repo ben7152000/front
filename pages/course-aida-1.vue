@@ -22,7 +22,14 @@ import TheFooter from "@/components/TheFooter";
 export default {
     head() {
         return {
-            title: "Course-Aida-1"
+            title: "Course-Aida-1",
+            meta: [
+              { 
+                hid: '台北龍洞 自由潛水課程 裝備租借 和美國小 龍洞四號 體驗自由潛水 龍洞岬 AIDA證照 AIDA1 國際證照', 
+                name: 'description', 
+                content: '台北龍洞 自由潛水課程 裝備租借 和美國小 龍洞四號 體驗自由潛水 龍洞岬 AIDA證照 AIDA1 國際證照' 
+              }
+            ]
         };
     },
     components: {

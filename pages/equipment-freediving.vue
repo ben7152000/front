@@ -28,7 +28,15 @@ export default {
   },
   head() {
     return {
-      title: "Equipment-Freediving"
+      title: "Equipment-Freediving",
+      meta: 
+        [
+          { 
+            hid: '台北龍洞 自由潛水課程 體驗自由潛水 裝備租借 和美國小 龍洞四號 龍洞岬 浮潛中心', 
+            name: 'description', 
+            content: '台北龍洞 自由潛水課程 體驗自由潛水 裝備租借 和美國小 龍洞四號 龍洞岬 浮潛中心' 
+          }
+        ]
     }
   },
   components: {

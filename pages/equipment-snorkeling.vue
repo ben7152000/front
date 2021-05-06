@@ -28,7 +28,15 @@ export default {
   },
   head() {
     return {
-      title: "Equipment-Snorkeling"
+      title: "Equipment-Snorkeling",
+      meta: 
+        [
+          { 
+            hid: '台北龍洞浮潛 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心', 
+            name: 'description', 
+            content: '台北龍洞浮潛 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心' 
+          }
+        ]
     }
   },
   components: {
