@@ -19,7 +19,6 @@ export default {
         'assets/scss/style.scss'
     ],
     plugins: [
-        ["@babel/plugin-proposal-private-methods", { "loose": true }],
         '~/plugins/vue-awesome-swiper.js',
         '~/plugins/silentbox.js',
         '~/plugins/vuejs-paginate.js',
