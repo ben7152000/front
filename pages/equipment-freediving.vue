@@ -20,31 +20,34 @@ import TheFooter from "@/components/TheFooter";
 export default {
   async asyncData(context) {
     try {
-      const { data } = await context.$axios.get("http://localhost:8081/api/freediving")
-      return { equipments: data.freedivings }
+      const { data } = await context.$axios.get(
+        "http://localhost:8081/api/freediving"
+      );
+      return { equipments: data.freedivings };
     } catch (e) {
-      console.log(e)
+      console.log(e);
     }
   },
   head() {
     return {
       title: "Equipment-Freediving",
-      meta: 
-        [
-          { 
-            hid: '台北龍洞 自由潛水課程 體驗自由潛水 裝備租借 和美國小 龍洞四號 龍洞岬 浮潛中心', 
-            name: 'description', 
-            content: '台北龍洞 自由潛水課程 體驗自由潛水 裝備租借 和美國小 龍洞四號 龍洞岬 浮潛中心' 
-          }
-        ]
-    }
+      meta: [
+        {
+          hid:
+            "台北龍洞 自由潛水課程 體驗自由潛水 裝備租借 和美國小 龍洞四號 龍洞岬 浮潛中心",
+          name: "description",
+          content:
+            "台北龍洞 自由潛水課程 體驗自由潛水 裝備租借 和美國小 龍洞四號 龍洞岬 浮潛中心"
+        }
+      ]
+    };
   },
   components: {
     TheHeader,
     OffCanvasMobileMenu,
     Breadcrumb,
     EquipmentDetail,
-    TheFooter,
+    TheFooter
   },
   data() {
     return {
@@ -62,7 +65,7 @@ export default {
           active: true
         }
       ]
-    }
+    };
   }
-}
+};
 </script>

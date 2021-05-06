@@ -23,8 +23,8 @@ import FeatureCard from "@/components/FeatureCard";
 export default {
   head() {
     return {
-        title: 'Feature-Equipment'
-    }
+      title: "Feature-Equipment"
+    };
   },
   props: ["addClassName"],
   components: {

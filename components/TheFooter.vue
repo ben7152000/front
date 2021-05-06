@@ -7,11 +7,9 @@
           <div class="footer-widget">
             <div class="footer-logo">
               <a href="/">
-                <img 
-                     src="/images/logo.png"
-                     alt="Logo" 
-                     style="width:120px; height: 70px"
-                />
+                <img src="/images/logo.png"
+                     alt="Logo"
+                     style="width:120px; height: 70px" />
               </a>
             </div>
             <SocialMedia />

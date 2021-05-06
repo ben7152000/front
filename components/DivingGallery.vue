@@ -1,46 +1,43 @@
 <template>
-    <div class="custom-layout-gallery mt-60">
-        <div class="row mtn-30">
-            <div class="col-lg-6 col-md-6 col-12 mt-30">
-                <div class="thumbnail" data-aos="fade-up">
-                    <img
-                        class="w-100"
-                        src="/images/aida-1.jpg"
-                        alt="Agency"
-                        style="width: 500px; height: 600px"
-                    />
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12 mt-30">
-                <div class="thumbnail" data-aos="fade-up">
-                    <img
-                        class="w-100"
-                        src="/images/aida-2.png"
-                        alt="Agency"
-                        style="width: 500px; height: 600px"
-                    />
-                </div>
-            </div>
-            <div class="col-lg-12 mt-30">
-                <div class="thumbnail" data-aos="fade-up">
-                    <img
-                        class="w-100"
-                        src="/images/aida-3.jpg"
-                        alt="Agency"
-                        style="width: 1170px; height: 600px"
-                    />
-                </div>
-            </div>
+  <div class="custom-layout-gallery mt-60">
+    <div class="row mtn-30">
+      <div class="col-lg-6 col-md-6 col-12 mt-30">
+        <div class="thumbnail"
+             data-aos="fade-up">
+          <img class="w-100"
+               src="/images/aida-1.jpg"
+               alt="Agency"
+               style="width: 500px; height: 600px" />
         </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 mt-30">
+        <div class="thumbnail"
+             data-aos="fade-up">
+          <img class="w-100"
+               src="/images/aida-2.png"
+               alt="Agency"
+               style="width: 500px; height: 600px" />
+        </div>
+      </div>
+      <div class="col-lg-12 mt-30">
+        <div class="thumbnail"
+             data-aos="fade-up">
+          <img class="w-100"
+               src="/images/aida-3.jpg"
+               alt="Agency"
+               style="width: 1170px; height: 600px" />
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-    head() {
-        return {
-            title: "Diving-Gallery"
-        };
-    }
+  head() {
+    return {
+      title: "Diving-Gallery"
+    };
+  }
 };
 </script>

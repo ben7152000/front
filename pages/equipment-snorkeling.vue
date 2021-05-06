@@ -5,7 +5,7 @@
     <Breadcrumb :items="items"
                 title="歡 迎 來 到 裝 備 租 借 中 心"
                 backgroundUrl="/images/banner-2.jpg" />
-    <EquipmentDetail :equipments="equipments"/>
+    <EquipmentDetail :equipments="equipments" />
     <TheFooter />
   </div>
 </template>
@@ -20,31 +20,34 @@ import TheFooter from "@/components/TheFooter";
 export default {
   async asyncData(context) {
     try {
-      const { data } = await context.$axios.get("http://localhost:8081/api/snorkeling")
-      return { equipments: data.snorkelings }
+      const { data } = await context.$axios.get(
+        "http://localhost:8081/api/snorkeling"
+      );
+      return { equipments: data.snorkelings };
     } catch (e) {
-      console.log(e)
+      console.log(e);
     }
   },
   head() {
     return {
       title: "Equipment-Snorkeling",
-      meta: 
-        [
-          { 
-            hid: '台北龍洞浮潛 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心', 
-            name: 'description', 
-            content: '台北龍洞浮潛 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心' 
-          }
-        ]
-    }
+      meta: [
+        {
+          hid:
+            "台北龍洞浮潛 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心",
+          name: "description",
+          content:
+            "台北龍洞浮潛 裝備租借 和美國小 龍洞四號 體驗浮潛 龍洞岬 浮潛中心"
+        }
+      ]
+    };
   },
   components: {
     TheHeader,
     OffCanvasMobileMenu,
     Breadcrumb,
     EquipmentDetail,
-    TheFooter,
+    TheFooter
   },
   data() {
     return {
@@ -62,7 +65,7 @@ export default {
           active: true
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
