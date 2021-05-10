@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      email: "bang928320@hotmail.com",
+      email: "bang928320@gmail.com",
       phone: "955-857-339",
       facebook: "https://www.facebook.com/dragon49/?ref=page_internal",
       line: "https://line.me/R/ti/p/%40843eetrw",
