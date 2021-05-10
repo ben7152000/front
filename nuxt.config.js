@@ -58,16 +58,15 @@ export default {
     server: {
         port: 8080
     },
-    "google-gtag": {
+    buildModules: [
+        '@nuxtjs/google-analytics'
+    ],
+    googleAnalytics: {
         id: process.env.GOOGLE_ANALYTICS_ID,
-        config: {
-            anonymize_ip: true,
-            send_page_view: false,
-            linker: {
-                domains: ["domain.com", "domain.org"]
-            }
-        },
-        debug: true,
-        disableAutoPageTrack: false
-    }
+    },
+    publicRuntimeConfig: {
+        googleAnalytics: {
+            id: process.env.GOOGLE_ANALYTICS_ID
+        }
+    },
 };
