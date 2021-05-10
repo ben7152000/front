@@ -42,7 +42,7 @@ export default {
         },
         {
           title: "信箱Email",
-          info: "bang92830@hotmail.com",
+          info: "bang92830@gmail.com",
           src: "/images/svg/linea/linea-basic-mail-open-text.svg"
         }
       ]
