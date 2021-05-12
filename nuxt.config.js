@@ -35,13 +35,10 @@ export default {
         },
     ],
     components: true,
-    buildModules: [],
     modules: [
         "bootstrap-vue/nuxt",
         "@nuxtjs/style-resources",
         "@nuxtjs/axios",
-        "@nuxtjs/google-gtag",
-        "@nuxtjs/google-gtag"
     ],
     styleResources: {
         scss: ["~/assets/scss/_variables.scss"]
@@ -73,7 +70,4 @@ export default {
         enabled: true,
         sendHitTask: true
     },
-    node: {
-        Buffer: true
-    }
 };

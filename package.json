@@ -13,7 +13,6 @@
     "dependencies": {
         "@babel/plugin-proposal-private-methods": "^7.13.0",
         "@nuxtjs/axios": "^5.13.1",
-        "@nuxtjs/google-gtag": "^1.0.4",
         "@nuxtjs/style-resources": "^1.0.0",
         "aos": "^2.3.4",
         "bootstrap": "^4.5.2",
@@ -23,7 +22,7 @@
         "nuxt": "^2.14.5",
         "nuxt-start": "^2.15.4",
         "parallax-js": "^3.1.0",
-        "swiper": "^5.3.7",
+        "swiper": "^6.6.1",
         "vue-awesome-swiper": "^4.1.0",
         "vue-fb-customer-chat": "^0.2.0",
         "vue-silentbox": "^2.2.0",
