@@ -63,6 +63,10 @@ export default {
           title: "課程介紹",
           item: [
             {
+              title: "AIDA 體驗",
+              to: "/course-aida-experience"
+            },
+            {
               title: "AIDA 1 課程",
               to: "/course-aida-1"
             },

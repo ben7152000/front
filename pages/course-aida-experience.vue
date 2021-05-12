@@ -3,7 +3,7 @@
     <TheHeader />
     <OffCanvasMobileMenu />
     <Breadcrumb :items="items"
-                title="歡 迎 來 到 高 階 自 由 潛 水 課 程"
+                title="歡 迎 來 到 自 由 潛 水 體 驗 課 程"
                 backgroundUrl="/images/banner-2.jpg" />
     <DivingDetail :course="course" />
     <TheFooter />
@@ -20,7 +20,7 @@ import TheFooter from "@/components/TheFooter";
 export default {
   head() {
     return {
-      title: "Course-Aida-3",
+      title: "Course-Aida-Experience",
       meta: [
         {
           name: "description",
@@ -48,20 +48,20 @@ export default {
           to: "/course"
         },
         {
-          text: "AIDA 3 課程",
+          text: "AIDA 體驗",
           active: true
         }
       ],
       course: {
-        title: "AIDA 3",
+        title: "AIDA 體驗",
         text:
-          "強化下潛技巧與潛水認知進階的課程將合理運用所學到的每一個技巧，建立安全快速的進步方式與習慣，使平壓技巧與身體姿勢更佳順暢，最後身理與心理都能適應，達到每一次的下潛都能輕鬆與享受",
-        day: "4 天",
-        price: "17,000",
-        contents: ["室內理論課程", "泳池基本技巧課程", "開放水域課程"],
-        items: ["自由潛水裝備費用", "保險費", "泳池費", "AIDA證照費"],
+          "你還在猶豫嗎？害怕踩不到底的海域又不太會游泳嗎？對自由潛水有興趣但又怕報名後才發現和自己想像的不一樣？那就快來參加體驗！體驗完全不需要有壓力，帶著輕鬆的心情來玩吧！",
+        day: "2 小時",
+        price: "800",
+        contents: ["平壓練習", "蛙鞋使用", "裝備認知"],
+        items: ["保險費", "教練費", "場地費", "盥洗費"],
         url:
-          "https://docs.google.com/forms/d/e/1FAIpQLSeMdfg0b716J6v16nKodM0ukRW4jsngs7IwMHLBEHggdRF2pA/viewform"
+          "https://docs.google.com/forms/d/e/1FAIpQLSespM5musgNc23m0syiGZTtW4bYvGlVozhJn_mZKzwu0BtbTA/viewform"
       }
     };
   }

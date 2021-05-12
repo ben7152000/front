@@ -37,13 +37,13 @@ export default {
         {
           title: "浮潛裝備",
           text: "救生衣、浮潛面鏡、防寒衣褲、蛙鞋、浮標、救生圈、陽傘",
-          image: "/images/equipment-1.jpg",
+          image: "/images/浮潛裝備封面.png",
           url: "/equipment-snorkeling"
         },
         {
           title: "自潛裝備",
           text: "自潛面鏡、呼吸管、防寒衣褲、蛙鞋、浮球、鉛帶、鉛塊",
-          image: "/images/equipment-2.png",
+          image: "/images/自由潛水裝備.png",
           url: "/equipment-freediving"
         }
       ]

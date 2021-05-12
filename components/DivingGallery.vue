@@ -5,7 +5,7 @@
         <div class="thumbnail"
              data-aos="fade-up">
           <img class="w-100"
-               src="/images/aida-1.jpg"
+               src="/images/自潛大圖 500-600 (1).png"
                alt="Agency"
                style="width: 500px; height: 600px" />
         </div>
@@ -14,7 +14,7 @@
         <div class="thumbnail"
              data-aos="fade-up">
           <img class="w-100"
-               src="/images/aida-2.png"
+               src="/images/自由潛水 500-600 (2).png"
                alt="Agency"
                style="width: 500px; height: 600px" />
         </div>
@@ -23,7 +23,7 @@
         <div class="thumbnail"
              data-aos="fade-up">
           <img class="w-100"
-               src="/images/aida-3.jpg"
+               src="/images/自潛大圖1170-600.png"
                alt="Agency"
                style="width: 1170px; height: 600px" />
         </div>

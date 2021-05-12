@@ -8,6 +8,9 @@
         <a href="/course">課程介紹</a>
         <ul class="sub-menu">
           <li>
+            <a href="/course-aida-experience">AIDA 體驗</a>
+          </li>
+          <li>
             <a href="/course-aida-1">AIDA 1 課程</a>
           </li>
           <li>

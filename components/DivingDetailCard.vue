@@ -8,7 +8,7 @@
             <div class="work-details-list mt-40">
               <div class="details-list">
                 <label>課程天數</label>
-                <span>{{ day }} 天</span>
+                <span>{{ day }}</span>
               </div>
               <div class="details-list">
                 <label>課程內容</label>
@@ -116,7 +116,10 @@
                                 accordion="my-accordion">
                       <b-card-body>
                         <b-card-text>
-                          一堂課3小時，費用為250元，不含裝備費用(費用可折抵裝備費用)
+                          1. 團練 -> 兩小時350元 (含教練、保險、場地、盥洗費用) <br />
+                          ※ 需上過AIDA課程的學員 <br />
+                          2. 補考 -> 兩小時800元 (含教練、保險、場地、盥洗費用)，AIDA學員皆可報名參加 <br />
+                          ※ 如通過考試需再繳交證照費用1000元
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>
