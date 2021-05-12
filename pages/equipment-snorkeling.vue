@@ -20,10 +20,7 @@ import TheFooter from "@/components/TheFooter";
 export default {
   async asyncData(context) {
     try {
-      const { data } = await context.$axios.get(
-        "http://localhost:8081/api/snorkeling"
-      );
-      console.log(data)
+      const { data } = await context.$axios.get("http://localhost:8081/api/snorkeling");
       return { equipments: data.snorkelings };
     } catch (e) {
       console.log(e);
@@ -62,7 +59,7 @@ export default {
           text: "浮潛裝備",
           active: true
         }
-      ]
+      ],
     };
   }
 };

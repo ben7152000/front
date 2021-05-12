@@ -32,7 +32,7 @@ export default {
         {
             src: "~/plugins/vue-fb-customer-chat.js",
             ssr: false
-        }
+        },
     ],
     components: true,
     buildModules: [],
@@ -53,7 +53,7 @@ export default {
             plugins: [
                 ["@babel/plugin-proposal-private-methods", { loose: true }]
             ]
-        }
+        },
     },
     server: {
         port: 8080
@@ -72,5 +72,8 @@ export default {
     debug: {
         enabled: true,
         sendHitTask: true
+    },
+    node: {
+        Buffer: true
     }
 };

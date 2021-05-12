@@ -21,9 +21,6 @@ export default {
     };
   },
   props: ["title", "image", "price"],
-  mounted() {
-    console.log(this.image);
-  }
 };
 </script>
 
