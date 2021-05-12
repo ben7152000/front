@@ -21,6 +21,7 @@ export default {
         "~/plugins/silentbox.js",
         "~/plugins/vuejs-paginate.js",
         "~/plugins/Mixitup.client.js",
+        "~/plugins/vue-gtag.js",
         {
             src: "~/plugins/aos",
             ssr: false
@@ -55,19 +56,19 @@ export default {
     server: {
         port: 8080
     },
-    buildModules: [
-        '@nuxtjs/google-analytics'
-    ],
-    googleAnalytics: {
-        id: process.env.GOOGLE_ANALYTICS_ID,
-    },
-    publicRuntimeConfig: {
-        googleAnalytics: {
-            id: process.env.GOOGLE_ANALYTICS_ID
-        }
-    },
-    debug: {
-        enabled: true,
-        sendHitTask: true
-    },
+    // buildModules: [
+    //     '@nuxtjs/google-analytics'
+    // ],
+    // googleAnalytics: {
+    //     id: process.env.GOOGLE_ANALYTICS_ID,
+    // },
+    // publicRuntimeConfig: {
+    //     googleAnalytics: {
+    //         id: process.env.GOOGLE_ANALYTICS_ID
+    //     }
+    // },
+    // debug: {
+    //     enabled: true,
+    //     sendHitTask: true
+    // },
 };
