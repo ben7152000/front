@@ -17,7 +17,7 @@
               </div>
               <div class="details-list">
                 <label>課程制度 (小班制)</label>
-                <span>一位學生即可開課</span>
+                <span>兩位即可成團</span>
                 <span>最多四位學生</span>
               </div>
               <div class="details-list">
@@ -40,7 +40,7 @@
               <div class="desc mt-40">
                 <div class="content mb-20">
                   <p>
-                    {{ text }}
+                    完全不需要有壓力，帶著輕鬆的心情來玩吧！
                   </p>
                 </div>
                 <div class="agency-accordion mb-20">
@@ -93,9 +93,7 @@
                           <br />
                           ※
                           課程前4-10天內因個人因素取消需負擔一成行政處理費用,課程前3天取消恕不退款
-                          (名額可轉讓)。 <br />
-                          ※
-                          如果於課程時間內無法取得證照資格，每月將另行公布團練及補考時間。
+                          (名額可轉讓)。
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>
@@ -108,7 +106,7 @@
                       <b-button block
                                 v-b-toggle.accordion-3
                                 class="acc-btn border-0 text-left">
-                        團練及補考須知 :
+                        報名須知 :
                       </b-button>
                     </b-card-header>
                     <b-collapse id="accordion-3"
@@ -116,10 +114,9 @@
                                 accordion="my-accordion">
                       <b-card-body>
                         <b-card-text>
-                          1. 團練 -> 兩小時350元 (含教練、保險、場地、盥洗費用) <br />
-                          ※ 需上過AIDA課程的學員 <br />
-                          2. 補考 -> 兩小時800元 (含教練、保險、場地、盥洗費用)，AIDA學員皆可報名參加 <br />
-                          ※ 如通過考試需再繳交證照費用1000元
+                          參加體驗的學員日後報名課程就送 (自潛專用一體成型呼吸管) <br />
+                          ※
+                          報名課程時請告知有參加過體驗
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>

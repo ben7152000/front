@@ -5,7 +5,7 @@
     <Breadcrumb :items="items"
                 title="歡 迎 來 到 自 由 潛 水 體 驗 課 程"
                 backgroundUrl="/images/banner-2.jpg" />
-    <DivingDetail :course="course" />
+    <DivingDetailExperience :course="course" />
     <TheFooter />
   </div>
 </template>
@@ -61,7 +61,7 @@ export default {
         contents: ["平壓練習", "蛙鞋使用", "裝備認知"],
         items: ["保險費", "教練費", "場地費", "盥洗費"],
         url:
-          "https://docs.google.com/forms/d/e/1FAIpQLSespM5musgNc23m0syiGZTtW4bYvGlVozhJn_mZKzwu0BtbTA/viewform"
+          "https://docs.google.com/forms/d/e/1FAIpQLSdPixtdsvfGYrmuXZjw-qqA1YejdqcVcannUz_OfL8K5CmMdg/viewform"
       }
     };
   }

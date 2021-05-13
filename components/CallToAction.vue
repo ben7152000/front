@@ -2,7 +2,7 @@
   <div class="section-padding-t90-b100">
     <div class="container shape-animate">
       <SectionTitle title="與我們聯繫"
-                    sub-title="想要報名課程、租借裝備、購買裝備、詢問下水相關問題，都能與我們聯絡"
+                    sub-title="想要預約課程、租借裝備、詢問下水等任何問題都歡迎聯絡我們唷！"
                     add-class-name="mb-30" />
       <CallToActionCard />
       <ShapeWithAnimation add-class-name="shape-1"
