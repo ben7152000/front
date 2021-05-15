@@ -7,7 +7,7 @@
             <h2 class="title">{{ title }} 課程</h2>
             <div class="work-details-list mt-40">
               <div class="details-list">
-                <label>課程天數</label>
+                <label>課程時數</label>
                 <span>{{ day }}</span>
               </div>
               <div class="details-list">
