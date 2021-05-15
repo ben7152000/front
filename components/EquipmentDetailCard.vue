@@ -2,7 +2,8 @@
   <div class="blog">
     <div class="thumbnail">
       <div class="image">
-        <img :src="image"
+        <b-img :src="image"
+               fluid
              :alt="title" />
       </div>
     </div>
@@ -30,15 +31,19 @@ export default {
   color: rgb(228, 54, 54);
 }
 
-image {
-  width: 370px;
-  height: 270px;
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 270px;
+    height: 270px;
 }
 
 img {
-  width: 370px;
-  height: 270px;
-  /* vertical-align: center; */
-  overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 </style>

@@ -4,28 +4,31 @@
       <div class="col-lg-6 col-md-6 col-12 mt-30">
         <div class="thumbnail"
              data-aos="fade-up">
-          <img class="w-100"
+          <b-img class="w-100"
+                 fluid
                src="/images/自潛大圖 500-600 (1).png"
                alt="Agency"
-               style="width: 500px; height: 600px" />
+               style="width: 500px; max-height: 600px" />
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-12 mt-30">
         <div class="thumbnail"
              data-aos="fade-up">
-          <img class="w-100"
+          <b-img class="w-100"
                src="/images/自由潛水 500-600 (2).png"
+                 fluid
                alt="Agency"
-               style="width: 500px; height: 600px" />
+               style="width: 500px; max-height: 600px" />
         </div>
       </div>
       <div class="col-lg-12 mt-30">
         <div class="thumbnail"
              data-aos="fade-up">
-          <img class="w-100"
+          <b-img class="w-100"
                src="/images/自潛大圖1170-600.png"
+                 fluid
                alt="Agency"
-               style="width: 1170px; height: 600px" />
+               style="width: 1170px; max-height: 600px" />
         </div>
       </div>
     </div>
@@ -41,3 +44,7 @@ export default {
   }
 };
 </script>
+
+<style>
+
+</style>
