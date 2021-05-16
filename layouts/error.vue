@@ -37,10 +37,10 @@
 export default {
     head() {
         return {
-            title: "Error"
+            title: "Error",
         };
     },
-    props: ["error"]
+    props: ["error"],
 };
 </script>
 

@@ -1,8 +1,6 @@
 {
     "name": "longdong",
-    "version": "1.0.0",
     "author": "Ben",
-    "private": true,
     "scripts": {
         "dev": "nuxt",
         "build": "nuxt build",
@@ -24,7 +22,7 @@
         "nuxt": "^2.14.5",
         "nuxt-start": "^2.15.4",
         "parallax-js": "^3.1.0",
-        "swiper": "^6.6.1",
+        "swiper": "^5.3.7",
         "vue-awesome-swiper": "^4.1.0",
         "vue-fb-customer-chat": "^0.2.0",
         "vue-gtag": "^1.16.1",
