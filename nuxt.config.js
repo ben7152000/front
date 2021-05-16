@@ -18,14 +18,11 @@ export default {
     },
     css: ["assets/scss/style.scss"],
     plugins: [
+        "~/plugins/vue-awesome-swiper.js",
         "~/plugins/silentbox.js",
         "~/plugins/vuejs-paginate.js",
         "~/plugins/Mixitup.client.js",
         "~/plugins/vue-gtag.js",
-        {
-            src: "~/plugins/vue-awesome-swiper.js",
-            ssr: false,
-        },
         {
             src: "~/plugins/aos",
             ssr: false,
