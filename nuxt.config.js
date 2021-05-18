@@ -11,7 +11,7 @@ export default {
             {
                 name: "description",
                 content:
-                    "新北市,台北,北海岸,龍洞,和美國小,東北角,龍洞自由潛水,自由潛水,自由潛水課程,自由潛水教學,自由潛水體驗,小班制教學,AIDA1,AIDA2,AIDA3",
+                    "新北市,北海岸,龍洞,和美國小,東北角,浮潛,裝備出租,龍洞自由潛水,自由潛水,自由潛水課程,自由潛水教學,自由潛水體驗,小班制教學,AIDA1,AIDA2,AIDA3",
             },
         ],
         link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
