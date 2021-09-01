@@ -38,6 +38,7 @@
                             <li>浮潛裝備出租,販售</li>
                             <li>自由潛水裝備出租,販售</li>
                             <li>自由潛水AIDA課程</li>
+                            <li>浮潛活動</li>
                         </ul>
                         <a
                             href="/about"

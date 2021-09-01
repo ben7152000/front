@@ -20,6 +20,9 @@
                         <li>
                             <a href="/course-aida-3">AIDA 3 課程</a>
                         </li>
+                        <li>
+                            <a href="/snorkel">浮潛活動</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
