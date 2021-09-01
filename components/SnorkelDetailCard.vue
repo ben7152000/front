@@ -23,10 +23,9 @@
                             <div class="details-list">
                                 <label>課程費用包含</label>
                                 <span>1. 保險費</span>
-                                <span>2. 蛙鏡</span>
-                                <span>3. 救生衣</span>
-                                <span>4. 防滑鞋</span>
-                                <span>5. 防寒衣</span>
+                                <span>2. 教練費</span>
+                                <span>3. 基本裝備</span>
+                                <span>4. 沖洗</span>
                             </div>
                             <div class="details-list">
                                 <label>報名制度</label>
