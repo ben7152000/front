@@ -36,6 +36,6 @@
         "prettier": "2.3.0",
         "sass": "^1.32.12",
         "sass-loader": "^10.1.1",
-        "webpack": "^4.46.0"
+        "webpack": "^5.72.0"
     }
 }
