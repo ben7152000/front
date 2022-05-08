@@ -43,7 +43,7 @@ export default {
                 },
                 {
                     title: "聯絡電話",
-                    info: "0955-857-339",
+                    info: "0939-098-057",
                     src: "/images/svg/linea/linea-basic-message-txt.svg",
                 },
                 {

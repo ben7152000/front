@@ -150,11 +150,7 @@
                                         >
                                             <b-card-body>
                                                 <b-card-text>
-                                                    參加體驗的學員日後報名課程就送
-                                                    (自潛專用一體成型呼吸管)
-                                                    <br />
-                                                    ※
-                                                    報名課程時請告知有參加過體驗
+                                                    ※ 報名課程時請告知有參加過體驗
                                                 </b-card-text>
                                             </b-card-body>
                                         </b-collapse>

@@ -59,9 +59,9 @@ export default {
                 title: "AIDA 體驗",
                 text: "你還在猶豫嗎？害怕踩不到底的海域又不太會游泳嗎？對自由潛水有興趣但又怕報名後才發現和自己想像的不一樣？那就快來參加體驗！體驗完全不需要有壓力，帶著輕鬆的心情來玩吧！",
                 day: "3 小時",
-                price: "800",
+                price: "2500",
                 contents: ["平壓練習", "蛙鞋使用", "裝備認知"],
-                items: ["保險費", "教練費", "場地費", "盥洗費"],
+                items: ["保險費", "教練費", "場地費", "盥洗費", "裝備費"],
                 url: "https://docs.google.com/forms/d/e/1FAIpQLSdPixtdsvfGYrmuXZjw-qqA1YejdqcVcannUz_OfL8K5CmMdg/viewform",
             },
         };

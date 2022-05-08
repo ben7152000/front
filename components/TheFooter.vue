@@ -78,10 +78,6 @@ export default {
                             to: "/course-aida-2",
                         },
                         {
-                            title: "AIDA 3 課程",
-                            to: "/course-aida-3",
-                        },
-                        {
                             title: "浮潛活動",
                             to: "/snorkel",
                         },

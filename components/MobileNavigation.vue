@@ -18,9 +18,6 @@
                             <a href="/course-aida-2">AIDA 2 課程</a>
                         </li>
                         <li>
-                            <a href="/course-aida-3">AIDA 3 課程</a>
-                        </li>
-                        <li>
                             <a href="/snorkel">浮潛活動</a>
                         </li>
                     </ul>

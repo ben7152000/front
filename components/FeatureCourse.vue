@@ -8,7 +8,7 @@
             />
             <div
                 class="
-                    row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1
+                    row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1
                     mtn-30
                 "
             >
@@ -69,14 +69,6 @@ export default {
                     url: "/course-aida-2",
                     price: "13500 TWD",
                     day: "3 天",
-                },
-                {
-                    title: "AIDA 3 課程",
-                    text: "強化下潛技巧與潛水認知進階的課程將合理運用所學到的每一個技巧，建立安全快速的進步方式與習慣，使平壓技巧與身體姿勢更佳順暢，最後身理與心理都能適應，達到每一次的下潛都能輕鬆與享受",
-                    image: "/images/AIDA3.png",
-                    url: "/course-aida-3",
-                    price: "17000 TWD",
-                    day: "4 天",
                 },
             ],
         };

@@ -32,7 +32,7 @@ export default {
     data() {
         return {
             email: "bang92830@gmail.com",
-            phone: "955-857-339",
+            phone: "939-098-057",
             facebook: "https://www.facebook.com/dragon49/?ref=page_internal",
             line: "https://line.me/R/ti/p/%40843eetrw",
             instagram: "https://www.instagram.com/longdongjia1_7/?hl=en",
