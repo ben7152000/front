@@ -23,6 +23,8 @@ export default {
         "~/plugins/vuejs-paginate.js",
         "~/plugins/Mixitup.client.js",
         "~/plugins/vue-gtag.js",
+        "plugin:prettier/recommended",
+        "plugin:nuxt/recommended",
         {
             src: "~/plugins/aos",
             ssr: false,
@@ -52,5 +54,25 @@ export default {
     },
     server: {
         port: 8080,
+    },
+    rules: {
+        "no-console": process.env.NODE_ENV === "production" ? "error" : "warn",
+        "no-debugger": process.env.NODE_ENV === "production" ? "error" : "warn",
+        "prettier/prettier": [
+            "error",
+            {
+                printWidth: 120,
+                tabWidth: 2,
+                useTabs: false,
+                singleQuote: true,
+                semi: true,
+                trailingComma: "all",
+                arrowParens: "avoid",
+                htmlWhitespaceSensitivity: "ignore",
+                bracketSameLine: true,
+                bracketSpacing: false,
+                endOfLine: "auto",
+            },
+        ],
     },
 };
