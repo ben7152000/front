@@ -23,8 +23,6 @@ export default {
         "~/plugins/vuejs-paginate.js",
         "~/plugins/Mixitup.client.js",
         "~/plugins/vue-gtag.js",
-        "plugin:prettier/recommended",
-        "plugin:nuxt/recommended",
         {
             src: "~/plugins/aos",
             ssr: false,
